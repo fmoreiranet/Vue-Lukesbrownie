@@ -2,7 +2,7 @@
   <header>
     <div class="logo">
       <img
-        src="./../../assets/logo.png"
+        src="../../assets/logo.png"
         alt="Logo marca da loja Lukesbrownie."
         title="Logomarca Lukesbrownie"
       />
@@ -17,13 +17,5 @@ export default {
 </script>
 
 <style scoped>
-header {
-  background-image: url(../../assets/img/produtos/bake-1003685_960_720.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  min-height: 230px;
-  /* text-align: center; */
-  /* padding: 60px; */
-}
+
 </style>
