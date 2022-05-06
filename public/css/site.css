@@ -76,6 +76,8 @@ section{
 }
 
 footer{
+        color: #ffffff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color:#c02836;
         text-align: center;
         padding: 60px;

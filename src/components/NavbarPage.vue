@@ -3,16 +3,16 @@
             <div class="row">
                 <div class="col-8">
                     <ul >
-                    <li><a href="#inicio"> Inicio </a></li>
+                    <li><a href="/"> Inicio </a></li>
                     <li><a href="#quem Somos"> Quem Somos </a></li>
                     <li><a href="#unidades"> Unidades </a></li>
                     <li><a href="#contato"> Contato </a></li>
-                    <li><a href="produtos.html"> Produtos </a></li>
+                    <li><a href="produtos"> Produtos </a></li>
                     </ul>
                 </div>
                 <div clas="col-4 direira">
                     <ul class="">
-                        <li> <a href="login.html"> Entrar</a></li>
+                        <li> <a href="logon"> Entrar</a></li>
                         <li> <a href="carrinho.html">Carrinho</a></li>
                     </ul>
                 </div>

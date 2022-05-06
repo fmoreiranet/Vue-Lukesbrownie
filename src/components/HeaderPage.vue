@@ -1,7 +1,7 @@
 <template>
   <header>
             <div class="logo">
-            <img src="../../vue-Lukesbrownie/src/assets/logo.png" alt="Logomarca da loja lukesbrownie" title="Logomarca Lukesbrownie" width="150" height="150">
+            <img src="@/assets/logo.png" alt="Logomarca da loja lukesbrownie" title="Logomarca Lukesbrownie" width="150" height="150">
             </div>
         </header>
 </template>
