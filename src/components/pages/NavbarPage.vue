@@ -1,54 +1,24 @@
-<template>
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-blue">
-    <div class="container">
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-      <button
-        class="navbar-toggler ms-auto"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-        <!--Icone no Menu Celular-->
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#home">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#demostracao">Demostração</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#produtos">Produtos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#areaSocial">Clientes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contatoMap">Locais</a>
-          </li>
-        </ul>
-
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="pages/logon.html">Entrar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/produto-pedido.html">Pedidos</a>
-          </li>
-        </ul>
-
-        <!-- <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-      </div>
-    </div>
-  </nav>
+<template> 
+        <nav class="bg-red respansive clearfix">
+            <div class="row">
+                <div class="col-8">
+                    <ul >
+                    <li><a href="#inicio"> Inicio </a></li>
+                    <li><a href="#quem Somos"> Quem Somos </a></li>
+                    <li><a href="#unidades"> Unidades </a></li>
+                    <li><a href="#contato"> Contato </a></li>
+                    <li><a href="produtos.html"> Produtos </a></li>
+                    </ul>
+                </div>
+                <div clas="col-4 direira">
+                    <ul class="">
+                        <li> <a href="login.html"> Entrar</a></li>
+                        <li> <a href="carrinho.html">Carrinho</a></li>
+                    </ul>
+                </div>
+            </div>      
+        </nav>
+        
 </template>
 
 <script>
@@ -58,18 +28,29 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
-  padding: 0;
+nav{ 
+        background-color:#C02836;
+        height: 50px;
 }
 
-.nav-link a {
-  color: #fff !important;
+nav ul{
+        display: block;
+}
+    
+nav ul li{
+        display: inline-block;
+        line-height: 30px;
+        color: #ffffff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.nav-link a:hover {
-  color: #0022cc !important;
-  background-color: #ffffff;
-  border-bottom: solid 5px #ecdd0b;
-  font-weight: bold;
+nav ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* padding:15px 25px */
 }
 </style>

@@ -1,12 +1,12 @@
 #propaganda1{
         padding: 0;
-        background-image: url(../imagens/banner/Banner\ Home.jpg)
+        background-image: url(src\assets\imagens\banner\Banner_Doce.jpg)
 }
 
 header{
-    background-color:#C02836;
-    text-align: left;
-    padding: 50px;        
+        background-color:#C02836;
+        text-align: left;
+        padding: 50px;        
 }
 
 /* Navegação */
