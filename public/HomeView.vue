@@ -228,12 +228,14 @@
 <script>
 import HeaderPage from "@/components/HeaderPage.vue";
 import NavbarPage from "@/components/NavbarPage.vue";
+import ProdutoList from "@/components/ProdutoList.vue";
 
 export default {
-
+// @ is an alias to /src -- "@" é um atalhos para a pasta principal do projetos "/src"
   components: {
     HeaderPage,
     NavbarPage,
+    ProdutoList,
   },
 };
 </script>
