@@ -55,7 +55,7 @@ const routes = [{
         path: '/produto_add',
         name: 'produto_add',
         component: () =>
-            import ('@/views/ProdutoForm.vue')
+            import ('@/views/ProdutosForm.vue')
 
     }
 ];
